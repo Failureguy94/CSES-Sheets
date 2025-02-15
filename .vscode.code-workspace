@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": ".vscode",
+			"path": "../../../.vscode"
+		},
+		{
+			"name": "cpp",
+			"path": "../cpp"
+		},
+		{
+			"name": "python",
+			"path": "../../Pictures/python"
+		},
+		{
+			"name": "c",
+			"path": "../../../anaconda3/Lib/site-packages/pyarrow/include/arrow/c"
+		},
+		{
+			"name": "CSS",
+			"path": "../CSS"
+		},
+		{
+			"name": "Sem2",
+			"path": "../Sem2"
+		},
+		{
+			"name": "CSES",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
