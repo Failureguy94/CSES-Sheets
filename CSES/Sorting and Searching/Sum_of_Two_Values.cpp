@@ -39,10 +39,6 @@ void solve() {
     for(int i=0;i<n;i++){
         mp[v[i]].push_back(i);
     }
-    // map<int,int> mp;
-    // for(int i=0;i<n;i++){
-    //     mp[v[i]]=i;
-    // }
     as(v);
     while(a<b){
         if(v[a]+v[b]==x){
