@@ -34,8 +34,6 @@ void solve() {
         for(int i=0;i<n;i++){
             cin>>v[i];
     }
-        int l=0;
-        int r=1;
         int ct=1;
         as(v);
     for(int i=0;i<n;i++){
