@@ -27,6 +27,10 @@ string to_upper(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='a' && a
 string to_lower(string a) { for (int i=0;i<(int)a.size();++i) if (a[i]>='A' && a[i]<='Z') a[i]+='a'-'A'; return a; }
 
 // Template :https://github.com/Failureguy94/Template-for-Competitive-Programming
+
+
+
+//Fenwick Tree or Binary Indexed tree
 struct BIT {
     vector<int> bit;
     BIT (int size) {
@@ -39,12 +43,10 @@ struct BIT {
             i |= i+1;
         }
     }
- 
     void update (int l, int r, int delta) {
         update(l, delta);
         update(r + 1, -delta);
     }
- 
     int get (int i) {
         int sum = 0;
         while(i>=0){
